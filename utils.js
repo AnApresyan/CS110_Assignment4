@@ -3,13 +3,16 @@ function sumOfMatrices(mat1, mat2){
         console.log("These two matrices cannot be added to each other");
         return;
     }
+    let finalmat = [];
     for (let row = 0; row < mat1.length; row++){
+        finalmat[row] = [];
         for (let col = 0; col < mat2[0].length; col++){
-            mat1[row][col] += mat2[row][col];
+            finalmat[row][col] = mat1[row][col] + mat2[row][col];
         }
     }
-    return mat1;
+    return finalmat;
 }
+
 
 function sumOfArray(arr){
     let sum = 0;

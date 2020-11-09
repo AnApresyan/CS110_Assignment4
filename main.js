@@ -8,9 +8,8 @@ A = [
 ]
 B = [
     [1,4,5],
-    [2,7,9],
-    [4,2,1] 
+    [2,7,9] 
 ]
-console.log(matrixProduct(A, B));
-console.log(sumOfEachRow(A));
+//console.log(matrixProduct(A, B));
+//console.log(sumOfEachRow(A));
 console.log(sumOfMatrices(A, B));
